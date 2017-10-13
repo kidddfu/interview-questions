@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(bg.gif);
+	font-family: "Microsoft Yahei"
+}
+
+.warpper{
+	width: 80%;
+	margin: 20px auto;
+	background: #fff;
+	box-sizing: border-box;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 1px #ccc;
+	padding: 20px;
+}
+
+.warpper h1,h2,h3,p{
+	padding-top: 5px;
+}
+
+.warpper h1{
+	text-align: center;
+	padding: 30px;
+	color: red;
+}
+
+.warpper h2{
+	color: orange;
+}
+
+.warpper h3{
+	color: blue;
+}
+/*前端工程师技能图谱部分样式设置*/
+.warpper .pimg{
+	text-align: center;
+	padding: 10px;
+}
+
+.warpper .pimg h2{
+	margin-bottom: 10px;
+	color: red;
+}
+
+pre {
+	/*background: #fc6;*/
+	border:dashed 1px blue;
+	font-size: 112.5%;
+	font-weight: bold;
+	line-height: 20px;
+	padding: 12px 0 0 0;
+}
